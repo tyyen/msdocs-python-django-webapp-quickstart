@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 
 def index(request):
-    print('** Changed to auto deploy ** Request for index page received ')
+    print('** Changed to auto deploy ** Request for index page received *** test20230217')
     return render(request, 'hello_azure/index.html')
 
 @csrf_exempt
